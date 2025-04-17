@@ -1,0 +1,210 @@
+
+.header {
+  display: flex;
+  padding: 10px 20px; 
+  text-align: center;
+  background: #fa5624;
+  color: rgb(255, 252, 251);
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw; 
+  box-sizing: border-box;
+}
+
+
+
+.header h1{
+  margin: 0;
+  text-align: center;
+  
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  
+}
+
+
+.Appliances{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+  margin-top: 70px;
+  margin-left: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.groceries{
+  height: 350px; 
+  width: 300px;   
+  margin-top: 70px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.gadget{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+  margin-top: 70px;
+  margin-left: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.clothing{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.body{
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(255, 225, 191);
+  gap: 5px;
+}
+
+img {
+  width: 250px;
+  height: 250px;  
+  object-fit: cover; 
+  margin: auto;
+  display: block;
+}
+
+
+button{
+  padding: 10px 15px;
+  background-color: #4678e4;
+  color: #ffffff;
+}
+
+
+.header h1{
+  margin: 0;
+  
+}
+
+/* .nav-menu {
+  display: flex;
+  gap: 15px;
+} */
+
+
+.Appliances{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+.groceries{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.gadget{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.clothing{
+  height: 350px; 
+  width: 300px;   
+  background-color: #f1dfd9;
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical alignment */
+  padding: 2rem;
+  width: 70%;
+}
+
+.main {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  width: 100vw; /* use full viewport width */
+  background-color: #ff9b58;
+  box-sizing: border-box; /* ensure padding doesn't overflow */
+}
+
+img {
+  width: 250px;
+  height: 250px;  
+  padding-top: 0px;
+  object-fit: cover; 
+  margin: auto;
+  display: block;
+}
+
+
+button{
+  padding: 10px 35px;
+  background-color: #4678e4;
+  color: #ffffff;
+}
+
+.cart {
+  width: 300px;
+  background: #f4f4f4;
+  padding: 1rem;
+}
